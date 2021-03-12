@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.farmvisor">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/agri"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WebLinkActivity"></activity>
+        <activity android:name=".UserChooserActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FarmerLoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity
+            android:name=".FarmerHomeActivity"
+            android:label="@string/title_activity_former_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".JobDetailsActivity" />
+        <activity android:name=".LandDetailsActivity" />
+        <activity android:name=".InvestmentActivity" />
+        <activity android:name=".EquipmentDetailsActivity" />
+        <activity android:name=".RequestsListActivty" />
+        <activity android:name=".InvestRequestDetailsActivity" />
+        <activity android:name=".JobRequestDetailsActivity" />
+        <activity android:name=".LandRequestDetailsActivity" />
+        <activity android:name=".EquipmentRequestDetailsActivity" />
+        <activity android:name=".LangueageSettingActivity" />
+        <activity android:name=".CropDetailsActivity" />
+        <activity android:name=".CropRequestDetailsActivity" />
+        <activity android:name=".ShowCropAuctionsActivity" />
+        <activity android:name=".MyBidChooser" />
+        <activity android:name=".ShowCropBiddings" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MapsActivity" />
+    </application>
+
+</manifest>

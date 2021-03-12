@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_former_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_wall"
+    android:orientation="vertical"
+    tools:context="project.farmvisor.FarmerLoginActivity"
+    android:padding="20dp"
+    android:gravity="center_vertical|center_horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_light" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/farmer_username"
+            android:layout_weight="2"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_orange_light"
+            android:paddingLeft="10dp"
+            android:hint="Your Phone Number"
+            android:textColorHint="@android:color/holo_blue_bright"
+            android:maxLength="10" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2d"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_light" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/farmer_password"
+            android:layout_weight="2"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_orange_light"
+            android:paddingLeft="10dp"
+            android:textColorHint="@android:color/holo_blue_bright"
+            android:hint="Your password"
+            android:inputType="textPassword"
+            android:maxLength="4" />
+    </LinearLayout>
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_farmer_login"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_green_light"
+        android:background="@drawable/rectangle_background"
+        android:textStyle="bold|italic"
+        android:shadowColor="@android:color/background_light"
+        android:textAllCaps="false"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:text="Forget Password? Click Here!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forget_password_link"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forget_layout"
+        android:visibility="gone">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/forget_phone"
+            android:layout_weight="2"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_orange_light"
+            android:paddingLeft="10dp"
+            android:hint="Your Phone Number"
+            android:textColorHint="@android:color/holo_blue_bright"
+            android:maxLength="10"
+            />
+        <Button
+            android:text="Send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Send_password"
+
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_green_light"
+            android:background="@drawable/rectangle_background"
+            android:textStyle="bold|italic"
+            android:shadowColor="@android:color/background_light"
+            android:textAllCaps="false"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Do not have an Account? Register!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/farmer_signup_link"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>

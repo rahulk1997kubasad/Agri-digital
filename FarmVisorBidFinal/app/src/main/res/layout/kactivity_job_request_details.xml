@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_job_request_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_wall"
+    tools:context="project.farmvisor.JobRequestDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp">
+
+
+    <TextView
+        android:text="ಕೆಲಸದ ವಿವರಗಳು"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="ಶೀರ್ಷಿಕೆ"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_light" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/job_title"
+            android:layout_weight="2"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_orange_light"
+            android:paddingLeft="10dp"
+            android:hint="Job Title"
+            android:textColorHint="#3065a2"
+            android:inputType="text"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="ವಿವರಣೆ"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewf23"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_light" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/job_description"
+            android:layout_weight="2"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_orange_light"
+            android:paddingLeft="10dp"
+            android:hint="Job Description"
+            android:textColorHint="#3065a2"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="ಪಾವತಿ"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_light" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/job_payment"
+            android:layout_weight="2"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_orange_light"
+            android:paddingLeft="10dp"
+            android:hint="Job Payment"
+            android:textColorHint="#3065a2"
+
+            android:inputType="number"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="ಅದಕ್ಕೆ ವಿನಂತಿಸಿ"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/holo_green_light"
+                android:layout_width="80dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/request_by"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Land Description"
+                android:textColorHint="#3065a2"
+                android:inputType="text"
+                android:minLines="3"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="ಮನವಿ ಮಾಡುವವನ ಸಂಪರ್ಕ"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/holo_green_light"
+                android:layout_width="80dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/requester_contact"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Land Description"
+                android:textColorHint="#3065a2"
+                android:minLines="3"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="ಒಪ್ಪಿಕೊಳ್ಳು"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_accept"
+                android:layout_marginTop="25dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_green_light"
+                android:background="@drawable/rectangle_background"
+                android:textStyle="bold|italic"
+                android:shadowColor="@android:color/background_light"
+                android:textAllCaps="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:layout_weight="1"
+                android:paddingBottom="10dp" />
+
+            <Button
+                android:text="ಅಳಿಸಿ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_delete"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_green_light"
+                android:background="@drawable/rectangle_background"
+                android:textStyle="bold|italic"
+                android:shadowColor="@android:color/background_light"
+                android:textAllCaps="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+        </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

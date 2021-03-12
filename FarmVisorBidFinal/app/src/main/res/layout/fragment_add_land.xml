@@ -1,0 +1,248 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.fasalsuraksha.AddLandFragment"
+    android:background="@drawable/black_wall">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Area Size"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/land_area"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Land size in Acres"
+                android:textColorHint="#3065a2"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Soil Type"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewf23"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/land_soil"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Soil Type"
+                android:textColorHint="#3065a2"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Landmark "
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/land_mark"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Land Landmark"
+                android:textColorHint="#3065a2"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Description"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewf24"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/land_description"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Description"
+                android:textColorHint="#3065a2"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Cost"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/land_cost"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Land cost/year"
+                android:textColorHint="#3065a2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Years"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light"
+                android:layout_width="80dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/land_year"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="No. of year to lease"
+                android:textColorHint="#3065a2"
+                android:inputType="number"
+                android:maxLength="15" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Get lat/long"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_land_coords"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_green_light"
+                android:background="@drawable/rectangle_background"
+                android:textStyle="bold|italic"
+                android:shadowColor="@android:color/background_light"
+                android:textAllCaps="false"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:text="Add Land"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add_land"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_green_light"
+            android:background="@drawable/rectangle_background"
+            android:textStyle="bold|italic"
+            android:shadowColor="@android:color/background_light"
+            android:textAllCaps="false"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+
+    </LinearLayout>
+</ScrollView>
+

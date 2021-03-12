@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AgriDigital</string>
+    <string name="title_activity_former_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+       AIzaSyDGTumJOCgjJ-VfiuCkrA1kppSlAfMA5oA
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

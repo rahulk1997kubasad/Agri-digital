@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="project.farmvisor.SplashActivity"
+    android:background="@android:color/background_light">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        app:srcCompat="@drawable/agri"
+        android:id="@+id/imageView"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:text="AGRI DIGITAL"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_height="30dp"
+        android:id="@+id/tv"
+        android:layout_marginTop="45dp" />
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_equipment_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_wall"
+    tools:context="project.farmvisor.EquipmentDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:text="Equipment Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Name"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/eq_name"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Equipment Name"
+                android:textColorHint="#3065a2"
+                android:inputType="text"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Model"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewf23"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/eq_model"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Equipment Mode/Brand"
+                android:textColorHint="#3065a2"
+                android:inputType="text"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Price"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/eq_rent"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="Rent per day"
+                android:textColorHint="#3065a2"
+
+                android:inputType="textEmailAddress|number"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Description"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:ems="10"
+                android:id="@+id/eq_description"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="About Equipment "
+                android:textColorHint="#3065a2"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+
+        <Button
+            android:text="Get Equipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_apply_eq"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_green_light"
+            android:background="@drawable/rectangle_background"
+            android:textStyle="bold|italic"
+            android:shadowColor="@android:color/background_light"
+            android:textAllCaps="false"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

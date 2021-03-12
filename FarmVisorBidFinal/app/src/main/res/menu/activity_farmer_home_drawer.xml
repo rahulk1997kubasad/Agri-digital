@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+<!--        <item-->
+<!--            android:id="@+id/nav_jobpost"-->
+<!--            android:title="Post Job" />-->
+        <item
+            android:id="@+id/nav_share_equipments"
+
+            android:title="share Equipments" />
+<!--        <item-->
+<!--            android:id="@+id/nav_lease"-->
+<!--            android:title="Lease a Land" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_inverstment"-->
+<!--            android:title="Request Investment" />-->
+
+        <item
+            android:id="@+id/nav_crop"
+
+            android:title="Add Crop" />
+
+        <item
+            android:id="@+id/nav_response"
+
+            android:title="Request response" />
+
+        <item
+            android:id="@+id/nav_help"
+
+            android:title="Online help" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+
+    </group>
+</menu>

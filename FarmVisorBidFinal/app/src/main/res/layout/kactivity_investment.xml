@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_investment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/black_wall"
+    tools:context="project.farmvisor.InvestmentActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:text="ಹೂಡಿಕೆ ವಿನಂತಿಯನ್ನು"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="ಪ್ರದೇಶ ಗಾತ್ರ"
+                android:layout_width="80dp"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/invest_area"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="ಎಕರೆಗಳಲ್ಲಿ ಭೂಮಿ ಗಾತ್ರ"
+                android:textColorHint="#3065a2"
+                android:inputType="numberDecimal"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="ಮಣ್ಣಿನ ಪ್ರಕಾರ್"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:id="@+id/textViewf23"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/invest_soil"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="ಮಣ್ಣಿನ ಪ್ರಕಾರ"
+                android:textColorHint="#3065a2"
+                android:inputType="text"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="ಹೆಗ್ಗುರುತು"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/invest_landmark"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="ಹೆಗ್ಗುರುತು"
+                android:textColorHint="#3065a2"
+                android:inputType="text"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="ಹೂಡಿಕೆ"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/invest_cost"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="ಭೂಮಿ ವೆಚ್ಚ / ವರ್ಷ"
+                android:textColorHint="#3065a2"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="ವರ್ಷಗಳು"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light"
+                android:layout_width="80dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/invest_year"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="14sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="ಹೂಡಿಕೆ ಮಾಡಲು ವರ್ಷಗಳ ಸಂಖ್ಯೆ"
+                android:textColorHint="#3065a2"
+                android:inputType="number"
+                android:maxLength="15"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="ವಿವರಗಳು"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_green_light"
+                android:layout_width="80dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/invest_description"
+                android:layout_weight="2"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_orange_light"
+                android:paddingLeft="10dp"
+                android:hint="ಮಣ್ಣಿನ ವಿವರಗಳು"
+                android:textColorHint="#3065a2"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <Button
+            android:text="ಹೂಡಿಕ ವಿನಂತಿಸಿ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_apply_invest"
+            android:layout_marginTop="25dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_green_light"
+            android:background="@drawable/rectangle_background"
+            android:textStyle="bold|italic"
+            android:shadowColor="@android:color/background_light"
+            android:textAllCaps="false"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+
+</ScrollView>

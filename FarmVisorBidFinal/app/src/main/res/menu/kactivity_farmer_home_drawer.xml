@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="ಮನೆ" />
+        <item
+            android:id="@+id/nav_jobpost"
+
+            android:title="ಕೆಲಸ  ಪ್ರಕಟಿಸು" />
+        <item
+            android:id="@+id/nav_share_equipments"
+
+            android:title="ಸಾಧನಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ" />
+        <item
+            android:id="@+id/nav_lease"
+
+            android:title="ಭೂಮಿಯನ್ನು ಗೇಣಿಗೆ ಕೊಡು" />
+        <item
+            android:id="@+id/nav_inverstment"
+
+            android:title="ಹೂಡಿಕೆಗಳನ್ನು ವಿನಂತಿಸಿ" />
+
+        <item
+            android:id="@+id/nav_crop"
+
+            android:title="ಬೆಳೆ ಹರಾಜಿಗೆ ಸೇರಿಸಿ" />
+        <item
+            android:id="@+id/nav_crop_request"
+
+            android:title="ಬೆಳೆ ವಿನಂತಿಸಿ" />
+
+        <item
+            android:id="@+id/nav_response"
+            android:title="ವಿನಂತಿ ಪ್ರತಿಕ್ರಿಯೆ" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="ಆನ್‌ಲೈನ್ ಸಹಾಯ" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="ಹೊರನಡೆ" />
+
+    </group>
+</menu>
